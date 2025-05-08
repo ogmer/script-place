@@ -1,0 +1,41 @@
+{
+  "explorer.confirmDelete": false,
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "glassit.alpha": 220,
+  "workbench.startupEditor": "none",
+  "files.autoSave": "afterDelay",
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "update.showReleaseNotes": false,
+  "workbench.iconTheme": "vscode-icons",
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [80],
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": "off"
+  },
+  "git.enableSmartCommit": true,
+  "[cpp]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "debug.onTaskErrors": "debugAnyway",
+  "editor.formatOnPaste": true,
+  "explorer.confirmDragAndDrop": false,
+  "chat.editing.alwaysSaveWithGeneratedChanges": true,
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "workbench.colorTheme": "Default Dark+",
+  "extensions.experimental.affinity": {
+    "asvetliakov.vscode-neovim": 1
+  },
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  }
+}
