@@ -1,5 +1,4 @@
 {
-  // エディタの基本設定
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -9,32 +8,26 @@
   "editor.suggestSelection": "first",
   "editor.tabSize": 2,
 
-  // ワークベンチの設定
   "workbench.startupEditor": "none",
   "workbench.iconTheme": "vscode-icons",
   "workbench.colorTheme": "Default Dark+",
   "workbench.editor.enablePreview": false,
 
-  // ファイル関連の設定
   "files.autoSave": "afterDelay",
   "files.eol": "\n",
   "files.trimTrailingWhitespace": true,
 
-  // エクスプローラーの設定
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
   "explorer.compactFolders": false,
 
-  // ターミナル設定
   "terminal.integrated.defaultProfile.windows": "PowerShell",
   "terminal.integrated.fontSize": 14,
 
-  // Git関連
   "git.enableSmartCommit": true,
   "git.autofetch": true,
   "git.confirmSync": false,
 
-  // 言語固有の設定
   "[dart]": {
     "editor.formatOnSave": true,
     "editor.formatOnType": true,
@@ -49,14 +42,12 @@
     "editor.defaultFormatter": "ms-vscode.cpptools"
   },
 
-  // その他の設定
   "glassit.alpha": 220,
   "diffEditor.ignoreTrimWhitespace": false,
   "update.showReleaseNotes": false,
   "debug.onTaskErrors": "debugAnyway",
   "chat.editing.alwaysSaveWithGeneratedChanges": true,
 
-  // 拡張機能の設定
   "extensions.experimental.affinity": {
     "asvetliakov.vscode-neovim": 1
   },
